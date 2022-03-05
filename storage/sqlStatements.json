@@ -1,0 +1,21 @@
+{
+    "getAll":["select mopedId,name,modelYear,rating,topspeed from moped"],
+
+    "get":[
+        "select mopedId,name,modelYear,rating,topspeed from moped",
+        "where mopedId=?"
+    ],
+    "insert":[
+        "insert into moped (mopedId, name, modelYear, rating, topspeed)",
+        "values(?,?,?,?,?)"
+    ],
+    "update":[
+        "update moped set name=?, modelYear=?, rating=?, topspeed=?",
+        "where mopedId=?"
+    ],
+    "remove":[
+        "delete from moped where mopedId=?"
+    ],
+    "primaryKey":"mopedId"
+
+}

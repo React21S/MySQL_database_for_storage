@@ -9,10 +9,10 @@
 
 1. Write `npm install` on your terminal and press enter (to allow the installation of a packages and it's dependencies to your local node-module folder )
 2. Write `node indexSPA.js` on your terminal and press enter (to start the `localhost:3000` )
-3. Write `node indexRest.js` on your terminal and press enter (to start the <span style="color:blue">**localhost:4000** </span>
+3. Write `node indexRest.js` on your terminal and press enter (to start the <span style="color:blue">**`localhost:4000`** </span>
 
-    - <span style="color:blue">**localhost:4000** </span> start the database API at backend and  
-    - <span style="color:blue">**localhost:3000** </span>allow you to view the user interface of the API.
+    - <span style="color:blue">**`localhost:4000`** </span> start the database API at backend and  
+    - <span style="color:blue">**`localhost:3000`** </span>allow you to view the user interface of the API.
 4. Write `localhost:3000` on your browser, then follow the procedures in the UI check the image bellow.
 
 ![UI](/img/Front.png)
@@ -45,14 +45,14 @@ npm install node-fetch@2
 ---
 ## All mopeds in the database
 
-- From the front page, when the user clicks on to <span style="color:blue">get all mopeds</span>, the current mopeds in the storage appear. Also, when the user clicks on the menu button, it navigates back to the front page.
+- From the front page, when the user clicks on to <span style="color:blue">`get all mopeds`</span>, the current mopeds in the storage appear. Also, when the user clicks on the menu button, it navigates back to the front page.
 
 ![All-screenshot](/img/All.png)
 
 ---
 ## Getting a particular moped in the database
 
-- From the front page, when the user clicks on <span style="color:blue">Get one moped</span> another page appear where the user can write MopedId or select MopedId to fetch the moped in the database. By clicking on submit button, the actual information in the database concerning the selected mopedId appeared. 
+- From the front page, when the user clicks on <span style="color:blue">`Get one moped`</span> another page appear where the user can write MopedId or select MopedId to fetch the moped in the database. By clicking on submit button, the actual information in the database concerning the selected mopedId appeared. 
 
 ![gettingOne-screenshot](/img/GettingOne.png)
 
@@ -64,7 +64,7 @@ npm install node-fetch@2
 
 ## Adding new moped to the database
 
-- From the front page, when the user clicks on <span style="color:blue">Add new moped</span>, another page appear, then the user can write all the necessary information and post it to the database. By clicking on submit button, the data goes direct to the database. 
+- From the front page, when the user clicks on <span style="color:blue">`Add new moped`</span>, another page appear, then the user can write all the necessary information and post it to the database. By clicking on submit button, the data goes direct to the database. 
 
 ![Add-screenshot](/img/Add.png)
 
@@ -73,7 +73,7 @@ npm install node-fetch@2
 ![NotAdd-screenshot](/img/NotAdd.png)
 
 - By changing the mopedId and click submit button, it added the information to the database, then message appeared that 
-<span style="color:green">Resource with mopedId 8 was inserted</span> 
+<span style="color:green">`Resource with mopedId 8 was inserted`</span> 
 
 ![NewAdded-screenshot](/img/NewAdded.png)
 
@@ -82,11 +82,11 @@ npm install node-fetch@2
 
 ## Removing moped from databases
 
-- From the front page, when the user clicks on <span style="color:blue">remove moped </span> another page appears, then the user can search with moped with mopedId that needs to be removed or deleted in the database.
+- From the front page, when the user clicks on <span style="color:blue">`remove moped` </span> another page appears, then the user can search with moped with mopedId that needs to be removed or deleted in the database.
 
 ![remove-screenshot](/img/Remove.png)
 
-- The result from removing mopedId 8, and status display <span style="color:green">Resource with mopedId 8 was removed </span>, and if it does not, the error status `does not removed` display, and by clicking on the menu button, it navigates back to the front page. 
+- The result from removing mopedId 8, and status display <span style="color:green">`Resource with mopedId 8 was removed` </span>, and if it does not, the error status `does not removed` display, and by clicking on the menu button, it navigates back to the front page. 
 
 ![RemoveResult-screenshot](/img/RemoveResult.png)
 

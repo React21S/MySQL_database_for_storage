@@ -1,5 +1,45 @@
 # REST
 
+## Two different methods in creating the data into database
+- user can use any either method for creating data into database
+
+### Method 1
+- From terminal to run with json file `Oyinloye_Femi_moped_createStatements.json`
+
+```shell
+> cd storage
+```
+- After entering into storage folder, then enter this line below into terminal 
+
+```shell
+> createDatabase.js
+```
+
+---
+### Method 2
+
+- From terminal to run with sql file `Oyinloye_Femi_moped_createStatement.sql`
+
+```shell
+> cd storage
+```
+- After entering into storage folder, then enter this line below into terminal 
+
+```shell
+> ls Oyinloye_Femi_moped_createStatement.sql
+```
+
+- Follow by this line below:
+
+```shell
+> mysql -u controller -p <Oyinloye_Femi_moped_createStatement.sql
+```
+- It requested for password enter `secret`
+```shell
+Enter password: 
+```
+
+
 Get more information about HTTP in [here](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
 
@@ -124,7 +164,7 @@ fetch('http://localhost:4000/api/mopeds/1', {mode:'cors'})
 ```
 or 
 ```js
-let id =1
+let mopedId =1
 fetch(`http://localhost:4000/api/mopeds/${id}`, {mode:'cors'})
 ```
 

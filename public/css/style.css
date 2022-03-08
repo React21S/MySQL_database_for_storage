@@ -95,7 +95,7 @@
 body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--ml-4);
+  background-color: var( --neutral-0);
   z-index: -1;
  
 }
@@ -113,7 +113,7 @@ main{
 
 /* ######  menu list button ###### */
 .menu{
-    background-color: var(--ml-2);
+    background-color: var( --neutral-3);
     color:var(--white);
     border: none;
     border-radius: 5px;
@@ -129,8 +129,8 @@ main{
     text-transform: capitalize;
     text-align: center;
     width: 100%; 
-    background-color: var(--ml-2);
-    color:var(--white);
+    background-color: var( --neutral-3);
+    color: #004b23;
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px var(--color-4);
@@ -138,6 +138,7 @@ main{
     display: flex;
     text-decoration: none; 
     cursor: pointer;
+    font-size: 20px;
 }
 
 .menu a{
@@ -145,7 +146,7 @@ main{
 }
 
 .menu button:hover{
-    background-color: var(--ml-1);
+    background-color:  var(--ancient-3);
 }
 
 .menu:hover{
@@ -160,6 +161,7 @@ h1{
 h2{
   font-size: 2rem;
   text-align: center;
+  color: #004b23;
 }
 p{
   font-size: 1.5rem;
@@ -169,7 +171,7 @@ p{
 header{
   padding: 30px;
   text-align: center;
-  background-color: var(--ml-3);
+  background-color: var( --neutral-3);
   color: var(--black);
   width: 100%;
   font-size: 60px;
@@ -184,7 +186,7 @@ header{
 /* ####### Footer ###### */
 footer{
   text-align: center;
-  background-color: var(--ml-2);
+  background-color: var( --neutral-3);
   padding: 0.5rem;
   bottom:0;
   width:100%;
@@ -209,25 +211,25 @@ footer p{
   font-family: var(--font-2);
   font-size: 1.5rem;
   padding: 20px;
-  color: var(--white);
+  color: #004b23;
 }
 
 footer .icons i {
   margin: 20px ;
   font-size: 30px;
-  color: var(--ml-4);
+  color: #004b23;
 }
 
 footer .icons i:hover{
-  color: var(--ancient-2);
+  color: var(--ancient-3);
   transition: 1s;
 }
 
 
 /* ####### all remaining button ###### */
 .btn{
-    background-color: var(--ml-2);
-    color:var(--white);
+    background-color: var( --neutral-2);
+    color: #004b23;
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px var(--color-4);
@@ -247,7 +249,7 @@ align-items: center;
 }
 
 .btn:hover{
-    background-color: var(--ml-1);
+    background-color: var(--ancient-3);
 }
 
 
@@ -261,19 +263,19 @@ input
   border-radius: 5px;
   outline: none;
   font-size: 20px;
-  width: 400px;
-  border-color:var(--ml-2);
+  width:400px;
+  border: 3px solid var( --neutral-2);
   margin-top: 20px;
   font-family: var(--font-2);
-  background-color: var(--br-1);
+  background-color:var( --neutral-1);
   display: flex;
 }
 label {
-  display: block;
-
+  display: inline-block;
   font-size: 30px;
   margin-left: 10px;
   text-align: left;
+  margin: 10px;
   
 }
 
@@ -291,20 +293,20 @@ table,th,td{
     padding: 0.5em;
 }
 thead{
-background-color: var(--br-6);
+background-color: var( --neutral-2);
 }
 
 tr:nth-child(2n){
-    background-color: var(--br-2);
+    background-color: var( --neutral-1);
 }
 
 /* ###### Get one moped from store and result  ###### */
 .singleResult{
-    margin: 20px;
-    box-shadow: 0 3px 8px 7px var(--white-2), 0 6px 20px 0 ;
+    margin: 10px;
+    box-shadow: 0 1px 5px 7px var(--light-gray), 0px 0px 10px 0px ;
     width: 500px;
     border-radius: 5px;
-    margin-left: 20px;
+    padding-top: 0;
     padding:10px ;
 }
 
@@ -340,7 +342,7 @@ h1.error{
 /* ######  inputForm for new moped ###### */
 .addform{
     margin: 20px;
-    box-shadow: 0 3px 8px 7px var(--white-2), 0 6px 20px 0 ;
+    box-shadow: 0 1px 5px 7px var(--light-gray), 0 6px 10px 0 ;
     width: 700px;
     border-radius: 5px;
     margin-left: 20px;

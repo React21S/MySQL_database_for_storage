@@ -80,7 +80,7 @@ npm install node-fetch@2
 ---
 
 
-## Removing moped from databases
+## Removing moped from database
 
 - From the front page, when the user clicks on <span style="color:blue">`remove moped` </span> another page appears, then the user can search with moped with mopedId that needs to be removed or deleted in the database.
 
@@ -89,6 +89,24 @@ npm install node-fetch@2
 - The result from removing mopedId 8, and status display <span style="color:green">`Resource with mopedId 8 was removed` </span>, and if it does not, the error status `does not removed` display, and by clicking on the menu button, it navigates back to the front page. 
 
 ![RemoveResult-screenshot](/img/RemoveResult.png)
+
+---
+
+## updating a moped from databases
+
+- From the front page, when the user clicks on `update moped`, another page appears, then the user can search with the MopedId of the moped in the database that needs to be updated.
+
+### For Example moped with mopedId 11
+
+![Add-screenshot](/img/Update.png)
+
+- The search result from  `mopedId 11` ready for updating
+
+![Add-screenshot](/img/UpdateSubmit.png)
+
+- The result from submit button can display status  `Resource with mopedId 11 was updated`, or `No resource found with mopedId __`, and by clicking on the menu button, it navigates back to the front page.
+
+![Add-screenshot](/img/UpdateResult.png)
 
 ---
 

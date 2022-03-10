@@ -255,7 +255,8 @@ align-items: center;
 
 /* ######  input and label section  ###### */
 input[readonly]{
-    background-color: lightgray;
+    background-color: #a1b4b9;
+    border: none;
 }
 input
  {

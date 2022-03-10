@@ -73,16 +73,16 @@ app.post('/remove', (req,res)=>{
 
 // update
 app.post('/update', (req, res)=>{
-    const computer = req.body;
+    const moped= req.body;
     const options = {
         method: 'PUT',
         mode:'cors',
         headers:{
             'Content-Type':'application/json'
         },
-        body:JSON.stringify(computer)
+        body:JSON.stringify(moped)
     };
-    fetch(`http://localhost:4000/api/computers/${computer.id}`, options)
+    fetch(`http://localhost:4000/api/mopeds/${moped.mopedId}`, options)
     .then(data=>data.json())
     .then(result=>res.json(result))
     .catch(err=>res.json(err));

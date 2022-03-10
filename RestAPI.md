@@ -1,6 +1,6 @@
 # REST
 
-## Two different methods in creating the data into database
+## Two different C
 - user can use any either method for creating data into database
 
 ### Method 1

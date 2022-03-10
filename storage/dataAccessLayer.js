@@ -137,6 +137,3 @@ module.exports = class DataStorage{
     }
 
 }
-
-
-// go back to layerTest.js

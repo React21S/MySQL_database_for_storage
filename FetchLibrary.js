@@ -27,5 +27,4 @@ const fetch = (uri,fetchOptions)=>
         .end(options.body)
         
     });
-
-    module.exports=fetch;
+module.exports=fetch;
